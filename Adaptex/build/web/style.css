@@ -1,0 +1,220 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Feb, 2019, 6:52:34 PM
+    Author     : Subarna
+*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+.loginbox{
+    width: 320px;
+    height: 450px;
+    background: black;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    
+}
+.registrationbox{
+    width: 320px;
+    height: 530px;
+    background: black;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    
+}
+.otpvalidate{
+    width: 320px;
+    height: 400px;
+    background: black;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    
+}
+.logo img{
+    width: 120px;
+    height: auto;
+    float: left;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.registrationbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.otpvalidate p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.otpvalidate input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.registrationbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.6s ease;
+}
+.registrationbox input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.6s ease;
+}
+.otpvalidate input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.6s ease;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: darkmagenta;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.registrationbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: darkmagenta;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.otpvalidate input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: darkmagenta;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:darkorchid ;
+}
+.registrationbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:darkorchid ;
+}
+.otpvalidate input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:darkorchid ;
+}
+header{
+    background-color: black;
+    height: 7vh;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.button{
+    position: absolute;
+    top:50%;
+    right: 1%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+}
